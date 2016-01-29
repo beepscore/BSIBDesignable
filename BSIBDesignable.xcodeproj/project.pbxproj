@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE8C9CF91C5C2A610022D1CE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C9CF81C5C2A610022D1CE /* DesignableView.swift */; };
 		DE94DB431C5C28460045F432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE94DB421C5C28460045F432 /* AppDelegate.swift */; };
 		DE94DB451C5C28460045F432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE94DB441C5C28460045F432 /* ViewController.swift */; };
 		DE94DB481C5C28460045F432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE94DB461C5C28460045F432 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE8C9CF81C5C2A610022D1CE /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		DE94DB3F1C5C28460045F432 /* BSIBDesignable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSIBDesignable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE94DB421C5C28460045F432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE94DB441C5C28460045F432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,10 +81,11 @@
 		DE94DB411C5C28460045F432 /* BSIBDesignable */ = {
 			isa = PBXGroup;
 			children = (
+				DE94DB491C5C28460045F432 /* Assets.xcassets */,
 				DE94DB421C5C28460045F432 /* AppDelegate.swift */,
 				DE94DB441C5C28460045F432 /* ViewController.swift */,
+				DE8C9CF81C5C2A610022D1CE /* DesignableView.swift */,
 				DE94DB461C5C28460045F432 /* Main.storyboard */,
-				DE94DB491C5C28460045F432 /* Assets.xcassets */,
 				DE94DB4B1C5C28460045F432 /* LaunchScreen.storyboard */,
 				DE94DB4E1C5C28460045F432 /* Info.plist */,
 			);
@@ -201,6 +204,7 @@
 			files = (
 				DE94DB451C5C28460045F432 /* ViewController.swift in Sources */,
 				DE94DB431C5C28460045F432 /* AppDelegate.swift in Sources */,
+				DE8C9CF91C5C2A610022D1CE /* DesignableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
