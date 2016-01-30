@@ -10,7 +10,7 @@ import UIKit
 
 class DesignableView: UIView {
 
-    @IBInspectable var cornerRadius: CGFloat = 0 {
+    @IBInspectable override var cornerRadius: CGFloat {
         didSet {
             layer.cornerRadius = cornerRadius
             layer.masksToBounds = cornerRadius > 0
