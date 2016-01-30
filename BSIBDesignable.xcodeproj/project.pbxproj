@@ -95,17 +95,17 @@
 			children = (
 				DE94DB491C5C28460045F432 /* Assets.xcassets */,
 				DE94DB421C5C28460045F432 /* AppDelegate.swift */,
-				DE94DB441C5C28460045F432 /* ViewController.swift */,
 				DE8C9CFC1C5C39B00022D1CE /* CalculatorView.swift */,
-				DE72EF3F1C5C8D3C00807F53 /* StringyView.xib */,
-				DE72EF411C5C92D800807F53 /* StringyView.swift */,
 				DECF019F1C5C531A00E2E1F4 /* CGRect+Alignment.swift */,
 				DE8C9CF81C5C2A610022D1CE /* DesignableView.swift */,
-				DE8C9CFA1C5C342E0022D1CE /* UIView+CornerRadius.swift */,
-				DEC653331C5C4F1800268112 /* String+Drawing.swift */,
-				DE94DB461C5C28460045F432 /* Main.storyboard */,
-				DE94DB4B1C5C28460045F432 /* LaunchScreen.storyboard */,
 				DE94DB4E1C5C28460045F432 /* Info.plist */,
+				DE94DB4B1C5C28460045F432 /* LaunchScreen.storyboard */,
+				DE94DB461C5C28460045F432 /* Main.storyboard */,
+				DEC653331C5C4F1800268112 /* String+Drawing.swift */,
+				DE72EF411C5C92D800807F53 /* StringyView.swift */,
+				DE72EF3F1C5C8D3C00807F53 /* StringyView.xib */,
+				DE8C9CFA1C5C342E0022D1CE /* UIView+CornerRadius.swift */,
+				DE94DB441C5C28460045F432 /* ViewController.swift */,
 			);
 			path = BSIBDesignable;
 			sourceTree = "<group>";
