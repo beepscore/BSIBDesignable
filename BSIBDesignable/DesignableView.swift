@@ -8,6 +8,7 @@
 
 import UIKit
 
+@IBDesignable
 class DesignableView: UIView {
 
     @IBInspectable var borderWidth: CGFloat = 0 {
