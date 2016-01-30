@@ -20,7 +20,10 @@ class CalculatorView: UIView {
     let (columns, rows) = (4, 6) as (CGFloat, CGFloat)
     
     // basic buttons: all 1x1 unit
-    let buttonRows = [ ["C", "=", "/", "*"], ["7", "8", "9", "-"], ["4", "5", "6", "+"], ["1", "2", "3"] ]
+    let buttonRows = [ ["C", "=", "/", "*"],
+        ["7", "8", "9", "-"],
+        ["4", "5", "6", "+"],
+        ["1", "2", "3"] ]
     
     // special cases: non-square or out of position
     let specialButtons = [("=", CGPoint(x: 3, y: 4), CGSize(width: 1, height: 2)),
