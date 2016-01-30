@@ -6,7 +6,7 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--Calc-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BSIBDesignable" customModuleProvider="target" sceneMemberID="viewController">
@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="KBU-O2-vQp" customClass="DesignableView" customModule="BSIBDesignable" customModuleProvider="target">
-                                <rect key="frame" x="60" y="550" width="480" height="40"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KBU-O2-vQp" customClass="DesignableView" customModule="BSIBDesignable" customModuleProvider="target">
+                                <rect key="frame" x="60" y="501" width="480" height="40"/>
                                 <color key="backgroundColor" red="0.80000000000000004" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Yim-0m-f7i"/>
@@ -36,8 +36,8 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EJe-fO-5Xf" customClass="CalculatorView" customModule="BSIBDesignable" customModuleProvider="target">
-                                <rect key="frame" x="60" y="28" width="480" height="492"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EJe-fO-5Xf" customClass="CalculatorView" customModule="BSIBDesignable" customModuleProvider="target">
+                                <rect key="frame" x="60" y="28" width="480" height="443"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="faceColor">
@@ -73,11 +73,30 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EJe-fO-5Xf" secondAttribute="bottom" constant="80" id="jq0-b3-LJD"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="7CZ-hI-8P0"/>
+                    <tabBarItem key="tabBarItem" title="Calc" id="7CZ-hI-8P0"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1247" y="310"/>
+        </scene>
+        <!--Stringy-->
+        <scene sceneID="TA7-kX-alD">
+            <objects>
+                <viewController id="zvF-eN-spJ" customClass="StringyViewController" customModule="BSIBDesignable" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ckU-0W-HOJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="qIx-Vr-3Hs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DzB-Rq-KKd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Stringy" id="BQh-eL-St1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NXe-By-rXy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1233" y="1053"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="jYF-4i-aTD">
@@ -90,11 +109,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="jva-80-hip"/>
+                        <segue destination="zvF-eN-spJ" kind="relationship" relationship="viewControllers" id="5t7-Mv-auR"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Zb-hc-TYy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="435" y="310"/>
+            <point key="canvasLocation" x="455" y="292"/>
         </scene>
     </scenes>
 </document>
