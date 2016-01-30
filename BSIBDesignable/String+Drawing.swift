@@ -22,7 +22,8 @@ enum NCStringAlignment {
 }
 
 extension String {
-    /// Draw the `String` inside the bounding rectangle with a given alignment.
+    /** Draw the `String` inside the bounding rectangle with a given alignment.
+     */
     func drawAtPointInRect(rect: CGRect, withAttributes attributes: [String: AnyObject]?, andAlignment alignment: NCStringAlignment) {
         let size = self.sizeWithAttributes(attributes)
         let x, y: CGFloat
