@@ -7,6 +7,8 @@ BSIBDesignable is an iOS application to practice using IBInspectable and IBDesig
 IBInspectable / IBDesignable by Nate Cook
 http://nshipster.com/ibinspectable-ibdesignable/
 
+https://github.com/JakeLin/IBCalculator
+
 https://developer.apple.com/library/ios/recipes/xcode_help-IB_objects_media/Chapters/CreatingaLiveViewofaCustomObject.html
 
 ## Custom views
