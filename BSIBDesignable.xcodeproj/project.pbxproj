@@ -16,6 +16,7 @@
 		DE94DB4A1C5C28460045F432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE94DB491C5C28460045F432 /* Assets.xcassets */; };
 		DE94DB4D1C5C28460045F432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE94DB4B1C5C28460045F432 /* LaunchScreen.storyboard */; };
 		DE94DB581C5C28460045F432 /* BSIBDesignableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE94DB571C5C28460045F432 /* BSIBDesignableTests.swift */; };
+		DEC653341C5C4F1800268112 /* String+Drawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC653331C5C4F1800268112 /* String+Drawing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		DE94DB571C5C28460045F432 /* BSIBDesignableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSIBDesignableTests.swift; sourceTree = "<group>"; };
 		DE94DB591C5C28460045F432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEB43D231C5C294B00E0826C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DEC653331C5C4F1800268112 /* String+Drawing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Drawing.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +93,7 @@
 				DE8C9CFC1C5C39B00022D1CE /* CalculatorView.swift */,
 				DE8C9CF81C5C2A610022D1CE /* DesignableView.swift */,
 				DE8C9CFA1C5C342E0022D1CE /* UIView+CornerRadius.swift */,
+				DEC653331C5C4F1800268112 /* String+Drawing.swift */,
 				DE94DB461C5C28460045F432 /* Main.storyboard */,
 				DE94DB4B1C5C28460045F432 /* LaunchScreen.storyboard */,
 				DE94DB4E1C5C28460045F432 /* Info.plist */,
@@ -211,6 +214,7 @@
 				DE94DB451C5C28460045F432 /* ViewController.swift in Sources */,
 				DE8C9CFD1C5C39B00022D1CE /* CalculatorView.swift in Sources */,
 				DE8C9CFB1C5C342E0022D1CE /* UIView+CornerRadius.swift in Sources */,
+				DEC653341C5C4F1800268112 /* String+Drawing.swift in Sources */,
 				DE94DB431C5C28460045F432 /* AppDelegate.swift in Sources */,
 				DE8C9CF91C5C2A610022D1CE /* DesignableView.swift in Sources */,
 			);
