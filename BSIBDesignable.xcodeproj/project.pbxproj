@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DE72EF401C5C8D3C00807F53 /* StringyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE72EF3F1C5C8D3C00807F53 /* StringyView.xib */; };
 		DE72EF421C5C92D800807F53 /* StringyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72EF411C5C92D800807F53 /* StringyView.swift */; };
+		DE72EF441C5C96D400807F53 /* StringyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72EF431C5C96D400807F53 /* StringyViewController.swift */; };
 		DE8C9CF91C5C2A610022D1CE /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C9CF81C5C2A610022D1CE /* DesignableView.swift */; };
 		DE8C9CFB1C5C342E0022D1CE /* UIView+CornerRadius.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C9CFA1C5C342E0022D1CE /* UIView+CornerRadius.swift */; };
 		DE8C9CFD1C5C39B00022D1CE /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8C9CFC1C5C39B00022D1CE /* CalculatorView.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		DE72EF3F1C5C8D3C00807F53 /* StringyView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StringyView.xib; sourceTree = "<group>"; };
 		DE72EF411C5C92D800807F53 /* StringyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringyView.swift; sourceTree = "<group>"; };
+		DE72EF431C5C96D400807F53 /* StringyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringyViewController.swift; sourceTree = "<group>"; };
 		DE8C9CF81C5C2A610022D1CE /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
 		DE8C9CFA1C5C342E0022D1CE /* UIView+CornerRadius.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+CornerRadius.swift"; sourceTree = "<group>"; };
 		DE8C9CFC1C5C39B00022D1CE /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				DEC653331C5C4F1800268112 /* String+Drawing.swift */,
 				DE72EF411C5C92D800807F53 /* StringyView.swift */,
 				DE72EF3F1C5C8D3C00807F53 /* StringyView.xib */,
+				DE72EF431C5C96D400807F53 /* StringyViewController.swift */,
 				DE8C9CFA1C5C342E0022D1CE /* UIView+CornerRadius.swift */,
 				DE94DB441C5C28460045F432 /* ViewController.swift */,
 			);
@@ -226,6 +229,7 @@
 				DE8C9CFB1C5C342E0022D1CE /* UIView+CornerRadius.swift in Sources */,
 				DECF01A01C5C531A00E2E1F4 /* CGRect+Alignment.swift in Sources */,
 				DEC653341C5C4F1800268112 /* String+Drawing.swift in Sources */,
+				DE72EF441C5C96D400807F53 /* StringyViewController.swift in Sources */,
 				DE94DB431C5C28460045F432 /* AppDelegate.swift in Sources */,
 				DE8C9CF91C5C2A610022D1CE /* DesignableView.swift in Sources */,
 				DE72EF421C5C92D800807F53 /* StringyView.swift in Sources */,
