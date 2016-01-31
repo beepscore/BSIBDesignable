@@ -91,7 +91,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QOJ-4X-cGE" customClass="StringyView" customModule="BSIBDesignable" customModuleProvider="target">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QOJ-4X-cGE" userLabel="StringyView" customClass="StringyView" customModule="BSIBDesignable" customModuleProvider="target">
                                 <rect key="frame" x="40" y="60" width="519" height="480"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -105,6 +105,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Stringy" id="hif-sA-wrZ"/>
+                    <connections>
+                        <outlet property="stringyView" destination="QOJ-4X-cGE" id="4b5-KD-TAE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k5o-4l-hry" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

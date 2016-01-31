@@ -10,10 +10,14 @@ import UIKit
 
 class StringyViewController: UIViewController {
 
+    @IBOutlet var stringyView: StringyView?
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        //stringyView!.label.text = "Hello"
     }
 
     override func didReceiveMemoryWarning() {
