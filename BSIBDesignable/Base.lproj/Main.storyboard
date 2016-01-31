@@ -79,7 +79,7 @@
             </objects>
             <point key="canvasLocation" x="1247" y="310"/>
         </scene>
-        <!--Item-->
+        <!--Stringy-->
         <scene sceneID="5CO-gy-bVb">
             <objects>
                 <viewController id="kDC-pF-InZ" customClass="StringyViewController" customModule="BSIBDesignable" customModuleProvider="target" sceneMemberID="viewController">
@@ -91,7 +91,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QOJ-4X-cGE" customClass="StringyView" customModule="BSIBDesignable" customModuleProvider="target">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QOJ-4X-cGE" customClass="StringyView" customModule="BSIBDesignable" customModuleProvider="target">
                                 <rect key="frame" x="180" y="236" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
@@ -104,7 +104,7 @@
                             <constraint firstItem="QOJ-4X-cGE" firstAttribute="centerX" secondItem="qZj-fq-l6y" secondAttribute="centerX" id="ng9-lK-122"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="hif-sA-wrZ"/>
+                    <tabBarItem key="tabBarItem" title="Stringy" id="hif-sA-wrZ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="k5o-4l-hry" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
