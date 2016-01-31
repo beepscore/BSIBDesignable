@@ -11,4 +11,18 @@ import UIKit
 @IBDesignable
 class StringyView: UIView {
 
+    // http://stackoverflow.com/questions/9282365/load-view-from-an-external-xib-file-in-storyboard
+    // https://gist.github.com/bwhiteley/049e4bede49e71a6d2e2
+
+    @IBOutlet var view: UIView!
+
+    // for using CustomView in IB
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+
+        NSBundle.mainBundle().loadNibNamed("StringyView", owner: self, options: nil)[0] as! UIView
+        self.addSubview(view)
+        view.frame = self.bounds
+    }
+
 }
