@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StringyView" customModule="BSIBDesignable" customModuleProvider="target">
             <connections>
+                <outlet property="label" destination="are-M7-Ldf" id="Ono-lm-lg6"/>
                 <outlet property="view" destination="iN0-l3-epB" id="A1c-d6-GPr"/>
             </connections>
         </placeholder>
@@ -18,8 +19,8 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kJq-1x-lY7">
                     <rect key="frame" x="40" y="80" width="520" height="80"/>
                     <subviews>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="are-M7-Ldf">
-                            <rect key="frame" x="153" y="11" width="214" height="58"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="are-M7-Ldf">
+                            <rect key="frame" x="248" y="11" width="24" height="58"/>
                             <fontDescription key="fontDescription" type="system" pointSize="48"/>
                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
@@ -27,8 +28,8 @@
                     </subviews>
                     <color key="backgroundColor" red="0.80000000000000004" green="1" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstItem="are-M7-Ldf" firstAttribute="centerY" secondItem="kJq-1x-lY7" secondAttribute="centerY" id="4bb-g8-Pyy"/>
-                        <constraint firstItem="are-M7-Ldf" firstAttribute="centerX" secondItem="kJq-1x-lY7" secondAttribute="centerX" id="c9S-Ny-IIk"/>
+                        <constraint firstItem="are-M7-Ldf" firstAttribute="centerY" secondItem="kJq-1x-lY7" secondAttribute="centerY" id="HoO-I1-Tc8"/>
+                        <constraint firstItem="are-M7-Ldf" firstAttribute="centerX" secondItem="kJq-1x-lY7" secondAttribute="centerX" id="geh-cA-3QJ"/>
                         <constraint firstAttribute="height" constant="80" id="uhH-td-9o8"/>
                     </constraints>
                     <userDefinedRuntimeAttributes>

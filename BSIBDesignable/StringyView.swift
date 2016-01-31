@@ -15,6 +15,7 @@ class StringyView: UIView {
     // https://gist.github.com/bwhiteley/049e4bede49e71a6d2e2
 
     @IBOutlet var view: UIView!
+    @IBOutlet var label: UILabel!
 
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -28,6 +29,8 @@ class StringyView: UIView {
         let view = bundleObjects[0] as! UIView
         self.addSubview(view)
         view.frame = self.bounds
+        // override text set in xib
+        self.label.text = "Calculator"
     }
 
 }
