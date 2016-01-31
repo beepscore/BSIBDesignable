@@ -24,7 +24,8 @@ class StringyView: UIView {
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
 
-        NSBundle.mainBundle().loadNibNamed("StringyView", owner: self, options: nil)[0] as! UIView
+        let bundleObjects = NSBundle.mainBundle().loadNibNamed("StringyView", owner: self, options: nil)
+        let view = bundleObjects[0] as! UIView
         self.addSubview(view)
         view.frame = self.bounds
     }
