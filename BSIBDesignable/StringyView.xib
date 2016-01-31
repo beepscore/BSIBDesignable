@@ -5,9 +5,13 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="StringyView" customModule="BSIBDesignable" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="A1c-d6-GPr"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="StringyView" customModule="BSIBDesignable" customModuleProvider="target">
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -17,7 +21,7 @@
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="are-M7-Ldf">
                             <rect key="frame" x="153" y="11" width="214" height="58"/>
                             <fontDescription key="fontDescription" type="system" pointSize="48"/>
-                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                     </subviews>
@@ -41,5 +45,6 @@
                 <constraint firstItem="kJq-1x-lY7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="80" id="hem-NN-mih"/>
             </constraints>
         </view>
+        <customObject id="ojY-WA-wzl" customClass="StringyView" customModule="BSIBDesignable" customModuleProvider="target"/>
     </objects>
 </document>
