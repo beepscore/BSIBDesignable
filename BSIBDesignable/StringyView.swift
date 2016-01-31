@@ -30,10 +30,33 @@ class StringyView: UIView {
 
         let bundleObjects = NSBundle.mainBundle().loadNibNamed("StringyView", owner: self, options: nil)
         let view = bundleObjects[0] as! UIView
+
+        let frameHeight = self.bounds.size.height / 2
+        let frameWidth = self.bounds.size.width
+        let frameRect = CGRectMake(0, 0, frameWidth, frameHeight)
+        view.frame = frameRect
+
         self.addSubview(view)
-        view.frame = self.bounds
+
         // override text set in xib
         self.label.text = "Calculator"
     }
 
+    override func drawRect(rect: CGRect) {
+        
+        // get the graphics context
+        let context = UIGraphicsGetCurrentContext()
+        
+        // draw a line
+        // http://www.techotopia.com/index.php/An_iOS_7_Graphics_Tutorial_using_Core_Graphics_and_Core_Image
+        CGContextSetLineWidth(context, 6.0);
+        let colorspace = CGColorSpaceCreateDeviceRGB();
+        let components: [CGFloat] = [0.0, 0.0, 1.0, 1.0];
+        
+        let color: CGColorRef = CGColorCreate(colorspace, components)!;
+        CGContextSetStrokeColorWithColor(context, color);
+        CGContextMoveToPoint(context, 30, 30);
+        CGContextAddLineToPoint(context, 300, 400);
+        CGContextStrokePath(context);
+    }
 }
