@@ -16,6 +16,10 @@ class StringyView: UIView {
 
     @IBOutlet var view: UIView!
 
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+
     // for using CustomView in IB
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
