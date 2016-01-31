@@ -8,6 +8,9 @@
 
 import UIKit
 
+/** StringyView is a custom view that uses a nib file.
+ *  The view may be used in a storyboard.
+ */
 @IBDesignable
 class StringyView: UIView {
 
