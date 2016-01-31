@@ -1,11 +1,11 @@
 # Purpose
-BSIBDesignable is an iOS application to practice using IBInspectable and IBDesignable.
+BSIBDesignable is an iOS application to practice using IBInspectable and IBDesignable.  
 Also it has a custom view that uses a nib file, and is used in a storyboard.
 
 # References
 
 ## IBDesignable
-IBInspectable / IBDesignable by Nate Cook
+IBInspectable / IBDesignable by Nate Cook  
 http://nshipster.com/ibinspectable-ibdesignable/
 
 https://github.com/JakeLin/IBCalculator
