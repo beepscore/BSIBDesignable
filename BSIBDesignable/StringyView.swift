@@ -33,10 +33,14 @@ class StringyView: UIView {
 
         let frameHeight = self.bounds.size.height / 2
         let frameWidth = self.bounds.size.width
-        let frameRect = CGRectMake(0, 0, frameWidth, frameHeight)
+        let frameRect = CGRectMake(0,
+            0.25 * self.bounds.size.height,
+            frameWidth,
+            frameHeight)
         view.frame = frameRect
 
         self.addSubview(view)
+        view.backgroundColor = UIColor.yellowColor()
 
         // override text set in xib
         self.label.text = "Calculator"
@@ -55,8 +59,10 @@ class StringyView: UIView {
         
         let color: CGColorRef = CGColorCreate(colorspace, components)!;
         CGContextSetStrokeColorWithColor(context, color);
-        CGContextMoveToPoint(context, 30, 30);
-        CGContextAddLineToPoint(context, 300, 400);
+        CGContextMoveToPoint(context, 0, 0);
+        let inset = CGFloat(10)
+        CGContextAddLineToPoint(context,
+            rect.width - inset, rect.height - inset);
         CGContextStrokePath(context);
     }
 }
